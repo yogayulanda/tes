@@ -120,7 +120,7 @@ padding-top: 10px;
 }
 
 /* Untuk SmartPhone */
-@media only screen and (max-width:670px){
+@media all and (max-width:670px){
 header {
     text-align: center;
     width: 100%;
