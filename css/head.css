@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+     background-image: url(../img/bg.svg);
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+}
+
+label {
+    margin: 10px;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+
+.main ul {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+.main ul li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.main ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+
+.main .logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.main {
+    max-width: 1200px;
+    
+}
+
+.title {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.title h1 {
+    font-size: 70px;
+    color: lightslategray;
+}
+
+.title h4{
+    margin-bottom: -10px;
+    font-size: 16px;
+}
+
+.title p {
+    margin-top : -10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.main li::after {
+    content:'';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+
+.main li:hover::after {
+    width: 100%;
+    transition: width .3s; 
+}
+
+.footer {
+    background-color:#484848;
+    height: 140px;
+}
+.footer-bottom {
+    color: whitesmoke;
+    height: 50px;
+    text-align: center;  
+}
+
+.footer-content {
+ margin-top: 10px;
+}
+
+.footer-bottom p {
+font-size: 16px;
+margin-bottom: 10px;
+padding-top: 10px;
+}
+
+.content {
+    text-align: center;
+    color: lightslategray;
+}
+
+.content p {
+    font-size: 16px;
+    padding: 20px;
+}
+
+@media only screen and (max-width:700px){
+header {
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    background-image: none;
+   
+}
+
+header a {
+    display: none;
+}
+
+
+}
